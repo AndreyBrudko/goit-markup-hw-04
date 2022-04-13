@@ -1,0 +1,497 @@
+:root {
+  --theme-color: #2196f3;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.hero{
+  
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*======== Header styles starts here ========*/
+
+.header-box {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-list {
+  align-items: center;
+  display: flex;
+}
+
+.nav-links {
+  padding: 30px 0px 32px 0px;
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-item:not(last-child) {
+  margin-right: 50px;
+}
+
+.nav-address {
+  padding: 32px 0px 32px 0px;
+  display: flex;
+}
+
+.hero-box {
+  padding: 200px 0px;
+  
+
+}
+
+.hero {
+  
+}
+
+.visual-work {
+  padding-top: 0;
+}
+
+.tittle-list {
+  display: flex;
+}
+
+.tittle-item{
+  width: 270px;
+  height: 101px;
+}
+
+.tittle-item:not(last-child) {
+  margin-right: 20px;
+}
+
+.descr-work {
+  margin-top: 10px;
+}
+
+.title-images {
+  display: flex;
+  margin-top: 50px;
+}
+
+.images-item :not(last-child) {
+  margin-right: 30px;
+}
+
+.community-list {
+  background-color: #f5f4fa;
+}
+
+/*.community-header {
+
+}*/
+
+.card-list {
+  display: flex;
+}
+
+.card-list:not(last-child) {
+  margin-top: 50px;
+}
+
+.card {
+  text-align: center;
+  margin-right: 30px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.name-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.position {
+  margin-top: 10px;
+}
+
+.footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.address-list {
+  margin-top: 20px;
+}
+
+.address-item {
+  margin-top: 9px;
+}
+
+.filter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.button-item {
+  
+}
+
+.button-item:not(last-child) {
+  margin-right: 8px;
+}
+
+.pfoto-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-image {
+  background: #ffffff;
+}
+
+.photo-image {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.photo-image:nth-child(-n+3){
+  margin-top: 0px;
+}
+
+.photo-image:nth-child(3n+3){
+  margin-right: 0px;
+}
+
+
+.name-card {
+  padding: 20px 24px;
+  background: #ffffff;
+  border-top: 0px;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #eeeeee;
+}
+
+.logo {
+  padding: 24px 0px 25px 0px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--theme-color);
+}
+
+.part-logo {
+  color: var(--text-primary);
+}
+
+.text-none {
+  display: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--theme-color);
+}
+
+.link-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+}
+
+.link-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+  margin-right: 50px;
+}
+
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--theme-color);
+}
+.link-phone:hover,
+.link-phone:focus {
+  color: var(--theme-color);
+}
+
+/*======== Header styles ends here ========*/
+
+/*======== Hero styles starts here ========*/
+.hero-box {
+  height: 600px;
+  background: #2f303a;
+}
+.hero-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  /*text-transform: uppercase;*/
+  color: #ffffff;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  border-radius: 4px;
+  border: 0px;
+  display: block;
+  letter-spacing: 0.06em;
+  background: var(--theme-color);
+  cursor: pointer;
+  padding: 10px 32px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  color: #ffffff;
+}
+
+/*======== Hero styles ends here ========*/
+
+/*======== Description styles starts here ========*/
+.title-work {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.descr-work {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+.title-icon {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-primary);
+}
+
+.community-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-primary);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-primary);
+}
+
+.soc-list{
+  display: flex;
+  justify-content: center;
+}
+
+.soc-link{
+  width: 44px;
+  height: 44px;
+  background-color: teal;
+  border-radius: 50%;
+  display: block;
+}
+
+.soc-item + .soc-item {
+  margin-left: 10px;
+
+}
+
+.position {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-secondary);
+}
+
+/*======== Description styles ends here ========*/
+
+/*======== Portfolio main styles starts here ========*/
+.filter-item {
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.62;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  padding: 6px 22px;
+
+  color: var(--text-primary);
+}
+
+.filter-item:focus,
+.filter-item:hover {
+  background-color: var(--theme-color);
+  color: #ffffff;
+}
+
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--text-primary);
+}
+.tupe-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-secondary);
+}
+
+/*======== Portfolio main styles ends here ========*/
+
+/*======== Footer styles starts here ========*/
+.footer {
+  background: #2f303a;
+}
+
+.link-address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.link-mail-foot {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-phone-foot {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.part-logo-footer {
+  color: #ffffff;
+  
+}
+
+/*======== Footer styles ends here ========*/
