@@ -75,7 +75,7 @@ a {
 }
 
 .nav-item:not(last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .nav-item{
@@ -207,6 +207,7 @@ a {
   height: 92px;
   border: 1px solid;
   border-color: #AFB1B8;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,7 +216,8 @@ a {
   
 }
 
-.client-link:hover{
+.client-link:hover,
+.client-link:focus {
   fill: var(--theme-color);
   border-color: var(--theme-color);
 }
@@ -336,7 +338,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-secondary);
   fill: var(--text-secondary);
-  margin-right: 50px;
+  
 }
 
 .link-mail:hover,
@@ -448,7 +450,8 @@ a {
 
 
 
-.soc-link:hover{
+.soc-link:hover,
+.soc-link:focus {
   background-color: var(--theme-color);
   fill: #ffffff;
 }
@@ -496,7 +499,7 @@ a {
   border-radius: 4px;
   border: 0px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 200% */
 
@@ -541,10 +544,16 @@ a {
 
 /*======== Footer styles starts here ========*/
 .footer {
-  padding-right: 840px;
+  background: #2f303a;
+}
+
+.footbox{
   display: flex;
   align-items: baseline;
-  background: #2f303a;
+}
+
+.footcont{
+  margin-right: 70px;
 }
 
 .link-address {
@@ -587,25 +596,20 @@ a {
   
 }
 
-.soc-desk{
-  width: 206px;
-  height: 80px;
-}
+
 
 .soc-names{
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  
+  letter-spacing: 0.03em; 
   color: #FFFFFF;
 }
+
 
 .futsoc-list{
   margin-top: 20px;
   display: flex;
-  justify-content: center;
 }
 
 .foot-link{
@@ -620,7 +624,8 @@ a {
 }
 
 
-.foot-link:hover {
+.foot-link:hover,
+.foot-link:focus {
   background-color: var(--theme-color);
   fill: #FFFFFF;
 }
